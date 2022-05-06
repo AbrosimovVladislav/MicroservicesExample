@@ -4,3 +4,18 @@ server:
 spring:
   application:
     name: customer
+  datasource:
+    url: jdbc:postgresql://localhost:5432/customer
+    username: 'root'
+    password: 'root'
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
+        jdbc.lob.non_contextual_creation: true
+        format_sql: true
