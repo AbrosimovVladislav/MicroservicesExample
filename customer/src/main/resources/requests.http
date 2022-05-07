@@ -13,9 +13,9 @@ POST http://localhost:8080/api/v1/customer/
 Content-Type: application/json
 
 {
-  "firstName": "Validia",
-  "lastName": "Krakis",
-  "email": "v@vkrakis.com"
+  "firstName": "Baril",
+  "lastName": "Lewis",
+  "email": "b@barils.com"
 }
 
 ###
