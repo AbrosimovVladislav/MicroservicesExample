@@ -1,0 +1,21 @@
+POST http://localhost:8083/api/v1/customer/
+Content-Type: application/json
+
+{
+  "firstName": "Jamila",
+  "lastName": "Ahmed",
+  "email": "j@jahmed.com"
+}
+
+###
+
+POST http://localhost:8083/api/v1/customer/
+Content-Type: application/json
+
+{
+  "firstName": "Baril",
+  "lastName": "Lewis",
+  "email": "b@barils.com"
+}
+
+###
