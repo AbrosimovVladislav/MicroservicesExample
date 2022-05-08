@@ -23,6 +23,18 @@ services:
       - "5433:5432"
     restart: unless-stopped
 
+  notification-db:
+    image: postgres
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      PGDATA: /data/postgres
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - "5434:5432"
+    restart: unless-stopped
+
 volumes:
   postgres:
   pgadmin:
