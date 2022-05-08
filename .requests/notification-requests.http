@@ -1,0 +1,10 @@
+POST http://localhost:8082/api/v1/notification/
+Content-Type: application/json
+
+{
+  "toCustomerId": "1",
+  "toCustomerEmail": "1",
+  "message": "1"
+}
+
+###
